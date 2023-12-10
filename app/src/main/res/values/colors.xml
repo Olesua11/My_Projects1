@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="q1">#799194</color>
+    <color name="w1">#617477</color>
+    <color name="q2">#96B8D3</color>
+    <color name="w2">#6E899E</color>
+    <color name="q3">#151414</color>
+    <color name="w3">#2E2C2C</color>
+    <color name="q4">#3A312F</color>
+    <color name="w4">#221C1B</color>
+    <color name="q5">#7A655E</color>
+
+</resources>

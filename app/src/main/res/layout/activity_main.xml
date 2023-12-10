@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/q5"
+    tools:context=".MainActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="22dp"
+        app:cardBackgroundColor="@color/q1"
+        android:layout_margin="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="-16dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="54dp"
+            android:text="Илья"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:layout_marginTop="10dp"
+android:layout_marginStart="156dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="155dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:id="@+id/btn_circle"
+            android:text="info"
+            android:layout_marginTop="55dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/w1"
+            app:cornerRadius="200dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_margin="22dp"
+        android:layout_marginEnd="12dp"
+        app:cardBackgroundColor="@color/q2"
+        app:cardCornerRadius="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="200dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="-16dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="54dp"
+            android:text="Мелиса"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="140dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="155dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:id="@+id/btn_circle2"
+            android:text="info"
+            android:layout_marginTop="55dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/w2"
+            app:cornerRadius="200dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view3"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_margin="22dp"
+        android:layout_marginEnd="12dp"
+        app:cardBackgroundColor="@color/q3"
+        app:cardCornerRadius="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="370dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="-16dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="54dp"
+            android:text="Артем"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="156dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="165dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:id="@+id/btn_circle3"
+            android:text="info"
+            android:layout_marginTop="60dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/w3"
+            app:cornerRadius="200dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view4"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_margin="22dp"
+        android:layout_marginEnd="12dp"
+        app:cardBackgroundColor="@color/q4"
+        app:cardCornerRadius="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="540dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="54dp"
+            android:text="Настя"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="156dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="160dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:id="@+id/btn_circle4"
+            android:text="info"
+            android:layout_marginTop="60dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/w4"
+            app:cornerRadius="200dp" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
